@@ -1,0 +1,13 @@
+.Nav {
+    background-color: #1A1A1A;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 2px solid black;
+
+    &__logo span{ 
+        color: #fff;
+    }
+}

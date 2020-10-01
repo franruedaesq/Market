@@ -1,0 +1,33 @@
+.Button {
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all .2s;
+    outline: none;
+    backface-visibility: hidden;
+
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    &:active {
+        transform: scale(.98);
+    }
+
+    &--red {
+        background-color: #FD3535;
+        color: #000;
+        transition: all .2s;
+
+        &:hover {
+            background-color: #000;
+            color: #FD3535;
+            border: 1px solid #FD3535;
+        }
+    }
+
+}
